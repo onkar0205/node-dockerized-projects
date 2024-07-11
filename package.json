@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "echo 'Running build Scrip'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onkar0205/node-dockerized-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onkar0205/node-dockerized-projects/issues"
+  },
+  "homepage": "https://github.com/onkar0205/node-dockerized-projects#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
+}
