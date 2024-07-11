@@ -24,8 +24,8 @@ pipeline {
         stage('Docker Push') {
             steps {
                 sh 'docker login -u ${DOCKERHUB_USERNAME} -p ${DOCKERHUB_PASSWORD}'
-                sh 'docker tag my-node-app:1.0 naikonkar0205/my-node-app:tagname:1.0'
-                sh 'docker push naikonkar0205/my-node-app:tagname:1.0'
+                sh 'docker tag my-node-app:1.0 naikonkar0205/my-node-app:1.0'
+                sh 'docker push naikonkar0205/my-node-app:1.0'
                 sh 'docker logout'
             }
         }
