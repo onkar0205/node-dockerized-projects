@@ -8,7 +8,7 @@ pipeline {
         }
         stage("Text"){
             steps{
-                sh 'echo "iauro100" | sudo -S apt install npm'
+                sh 'echo "pass123" | sudo -S apt install npm'
                 sh 'npm test'
             }
         }
